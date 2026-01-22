@@ -1,0 +1,38 @@
+/* Navbar.css */
+
+.navBar {
+    display: flex;
+    justify-content: space-between; /* Đẩy Logo sang trái, Menu sang phải */
+    align-items: center;            /* Căn giữa tất cả theo chiều dọc */
+    padding: 20px 0px;             /* Tạo khoảng cách lề hai bên */
+    background-color: #000000;      /* Nền đen */
+}
+
+.navBar-Logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Quan trọng: Sửa phần danh sách Menu */
+.navBar-Links {
+    display: flex;                  /* Dàn hàng ngang các mục <li> */
+    list-style: none;               /* Bỏ dấu chấm đầu dòng */
+    margin: 0;
+    padding: 0;
+    gap: 40px;                      /* Tạo khoảng cách ĐỀU giữa các chữ (Home, About...) */
+}
+
+.navBar-Links li a {
+    text-decoration: none;          /* Bỏ gạch chân */
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;      /* Viết hoa chữ */
+    transition: 0.3s;
+}
+
+.navBar-Links li a:hover {
+    color: #cccccc;                 /* Đổi màu khi di chuột vào */
+}

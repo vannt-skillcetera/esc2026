@@ -12,16 +12,19 @@ const Navbar = () => {
             {/* 2. Danh sách các link (Menu) */}
             <ul className="navBar-Links">
                 <li>
-                <a href="#">Home</a>
+                <a href="#">HOME</a>
                 </li>
                 <li>
-                <a href="#">Giới thiệu</a>
+                <a href="#">ABOUT</a>
                 </li>
                 <li>
-                <a href="#">Hoạt động</a>
+                <a href="#">SEASONS</a>
                 </li>
                 <li>
-                <a href="#">Tuyển thành viên</a>
+                <a href="#">PARTNERS</a>
+                </li>
+                <li>
+                <a href="#">CONTACT</a>
                 </li>
             </ul>
         </nav>
