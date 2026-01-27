@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "./Navbar.css"; // Kết nối với file trang điểm
 import Logo from "../../assets/Logo.png";
+
 const Navbar = () => {
     return (
         <nav className="navBar">
@@ -12,19 +14,19 @@ const Navbar = () => {
             {/* 2. Danh sách các link (Menu) */}
             <ul className="navBar-Links">
                 <li>
-                <a href="#">HOME</a>
+                    <Link to="/">Home</Link>
                 </li>
                 <li>
-                <a href="#">ABOUT</a>
+                    <Link to="/about">About</Link>
                 </li>
                 <li>
-                <a href="#">SEASONS</a>
+                    <Link to="/season">Season</Link>
                 </li>
                 <li>
-                <a href="#">PARTNERS</a>
+                    <Link to="/partner">Partner</Link>
                 </li>
                 <li>
-                <a href="#">CONTACT</a>
+                    <Link to="/contact">Contact</Link>
                 </li>
             </ul>
         </nav>

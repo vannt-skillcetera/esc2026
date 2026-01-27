@@ -1,0 +1,26 @@
+.heroContainer {
+    padding: 50px 0;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.heroContainer p {
+    font-size: 24px;
+}
+
+.heroContainer-buttons {
+    display: flex;
+    gap: 25px;
+}
+
+.heroContainer-buttons a{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 16px 32px;
+    border-radius: 23px;
+}

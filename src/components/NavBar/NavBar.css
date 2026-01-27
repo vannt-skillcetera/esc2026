@@ -6,6 +6,7 @@
     align-items: center;            /* Căn giữa tất cả theo chiều dọc */
     padding: 20px 0px;             /* Tạo khoảng cách lề hai bên */
     background-color: #000000;      /* Nền đen */
+    position: sticky;
 }
 
 .navBar-Logo {
