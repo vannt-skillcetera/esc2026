@@ -5,6 +5,7 @@ import About from "./pages/About/About.jsx";
 import Season from "./pages/Season/Season.jsx";
 import Partner from "./pages/Partner/Partner.jsx";
 import Contact from "./pages/Contact.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
         <Route path='/partner' element={<Partner />} />
         <Route path='/contact' element={<Contact />} />
       </Routes> 
-      
+      <Footer/>
     </div>
   );
 }
