@@ -8,7 +8,7 @@ const Navbar = () => {
         <nav className="navBar">
             {/* 1. Logo CLB */}
             <div className="navBar-Logo">
-                <img src={Logo} alt="" />
+                <img src={Logo} alt="logo" />
             </div>
 
             {/* 2. Danh sách các link (Menu) */}

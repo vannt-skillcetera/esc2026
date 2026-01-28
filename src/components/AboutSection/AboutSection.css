@@ -1,0 +1,27 @@
+.aboutSecContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px;
+}
+
+.aboutSecContent {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+}
+
+.aboutSecContent a {
+    width:fit-content;
+    color: black;
+    background-color: white;
+    padding: 10px 60px;
+    border-radius: 12px;
+}
+
+.aboutSecContainer img {
+    width: 650px;
+    height: 500px;
+}
+

@@ -4,8 +4,9 @@
     display: flex;
     justify-content: space-between; /* Đẩy Logo sang trái, Menu sang phải */
     align-items: center;            /* Căn giữa tất cả theo chiều dọc */
-    padding: 20px 0px;             /* Tạo khoảng cách lề hai bên */
+    padding: 20px 120px;             /* Tạo khoảng cách lề hai bên */
     background-color: #000000;      /* Nền đen */
+    top: 0;
     position: sticky;
 }
 
