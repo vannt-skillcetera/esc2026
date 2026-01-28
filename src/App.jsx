@@ -2,7 +2,7 @@ import "./App.css";
 import Navbar from "./components/NavBar/NavBar.jsx";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
-import Season from "./pages/Season.jsx";
+import Season from "./pages/Season/Season.jsx";
 import Partner from "./pages/Partner.jsx";
 import Contact from "./pages/Contact.jsx";
 import { Routes, Route } from 'react-router-dom';
