@@ -1,7 +1,7 @@
 .aboutSecContainer {
     display: flex;
     justify-content: space-between;
-    padding: 20px 120px;
+    padding: 0 120px;
 }
 
 .aboutSecContent {
