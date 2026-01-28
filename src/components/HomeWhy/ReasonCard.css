@@ -1,0 +1,26 @@
+.reasonCard {
+    background-color: #344966;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px 15px;
+    border-radius: 12px;
+}
+
+.cardIcon img{
+    color: white;
+    height: 32px;
+    width: 32px;
+    margin-bottom: 8px;
+}
+
+.cardTitle {
+    width: 100%;
+    margin-bottom: 6px;
+    font-size: 16px;
+}
+
+.cardContent {
+    width: 100%;
+    font-size: 12px;
+}

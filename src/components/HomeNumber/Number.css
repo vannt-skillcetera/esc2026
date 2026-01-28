@@ -1,0 +1,30 @@
+.numberContainer {
+    padding: 0 120px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.numberItems {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.numberContainer h2 {
+    font-size: 128px;
+}
+
+.numberItem {
+    font-size: 48px;
+    padding: 10px;
+}
+
+
+
+.numberItem-full {
+    grid-column: span 3;
+    font-size: 48px;
+    padding: 25px;
+}
