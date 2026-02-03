@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import Poster from "../../assets/poster.jpg";
+import Poster from "../../assets/picture/poster.jpg";
 import "./Season.css";
 function Season() {
     return (

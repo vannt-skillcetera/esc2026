@@ -1,10 +1,10 @@
 import "./Contact.css";
-import contactIcon from "../../assets/contact.png";
-import emailIcon from "../../assets/email.png";
-import mediaIcon from "../../assets/social-media.png";
-import supportIcon from "../../assets/support.png";
-import fbIcon from "../../assets/facebook.png";
-import insIcon from "../../assets/instagram.png";
+import contactIcon from "../../assets/picture/contact.png";
+import emailIcon from "../../assets/picture/email.png";
+import mediaIcon from "../../assets/picture/social-media.png";
+import supportIcon from "../../assets/picture/support.png";
+import fbIcon from "../../assets/picture/facebook.png";
+import insIcon from "../../assets/picture/instagram.png";
 
 function Contact() {
   return (

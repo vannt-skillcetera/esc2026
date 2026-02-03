@@ -1,7 +1,7 @@
-import aboutPic from "../../assets/aboutPic.jpg";
+import aboutPic from "../../assets/picture/aboutPic.jpg";
 import "./About.css";
-import captureAbout1 from "../../assets/captureAbout1.jpg";
-import horizontalBlank from "../../assets/horizontalBlank.jpg";
+import captureAbout1 from "../../assets/picture/captureAbout1.jpg";
+import horizontalBlank from "../../assets/picture/horizontalBlank.jpg";
 
 function About() {
   return (

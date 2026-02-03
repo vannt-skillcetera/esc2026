@@ -1,6 +1,6 @@
 import React from "react";
 import "./WhyJoin.css";
-import global from "../../assets/icon/global.svg";
+import global from "../../../assets/icon/global.svg";
 import ReasonCard from "./reasonCard";
 
 const WhyJoin = () => {

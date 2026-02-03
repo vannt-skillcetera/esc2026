@@ -1,7 +1,7 @@
 import React from "react";
 import "./AboutSection.css";
 import { Link } from "react-router-dom";
-import Pic from "../../assets/aboutPic.jpg";
+import Pic from "../../../assets/picture/aboutPic.jpg";
 
 const AboutSection = () => {
     return (
