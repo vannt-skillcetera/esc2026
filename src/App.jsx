@@ -7,6 +7,7 @@ import Season from "./pages/Season/Season.jsx";
 import Partner from "./pages/Partner/Partner.jsx";
 import Contact from "./pages/Contact/Contact.jsx";
 import Footer from "./components/Footer/Footer.jsx";
+import CurrentSeason from "./pages/Season/CurrentSeason/CurrentSeason.jsx";
 function App() {
   return (
     <div className="container">
@@ -17,6 +18,7 @@ function App() {
         <Route path='/season' element={<Season />} />
         <Route path='/partner' element={<Partner />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path="/currentSeason" element={<CurrentSeason/>}/>
       </Routes> 
       <Footer/>
     </div>

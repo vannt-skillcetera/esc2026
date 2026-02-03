@@ -8,6 +8,7 @@
     background-color: #000000;      /* Nền đen */
     top: 0;
     position: sticky;
+    z-index: 1000;
 }
 
 .navBar-Logo {

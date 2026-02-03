@@ -13,9 +13,11 @@ function Season() {
                     </div>
                     <div className="card-content">
                         <h3>ESC 2023</h3>
-                        <div className="footer">
+                        <div className="card-footer">
                             <span className="status completed">Completed</span>
-                            <button className="view-btn">VIEW</button>
+                            <button className="view-btn">
+                                <Link to="/CurrentSeason">VIEW</Link>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -26,9 +28,11 @@ function Season() {
                     <div className="card-content">
                         <h3>ESC 2026</h3>
                         <p className="description">Description</p>
-                        <div className="footer">
+                        <div className="card-footer">
                             <span className="status in-progress">In progress</span>
-                            <button className="view-btn">VIEW</button>
+                            <button className="view-btn">
+                                <Link to="/CurrentSeason">VIEW</Link>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -38,11 +42,11 @@ function Season() {
                     </div>
                     <div className="card-content">
                         <h3>ESC 2025</h3>
-                        <div className="footer">
+                        <div className="card-footer">
                             <span className="status completed">Completed</span>
-                            <li className="view-btn">
-                                VIEW
-                            </li>
+                            <button className="view-btn">
+                                <Link to="/CurrentSeason">VIEW</Link>
+                            </button>
                         </div>
                     </div>
                 </div>
